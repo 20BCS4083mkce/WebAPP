@@ -1,0 +1,24 @@
+.Project {
+   margin-top:80px;
+   margin-left: 10px;
+   margin-right: 10px;
+   .heading
+   {
+     margin-left: 10px;
+     font-size: 25px;
+     border-bottom: 2px solid #e0e0e0;
+     padding: 10px;
+   }
+  .imageGallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 50px;
+
+    .galleryfirst, .gallerysecond
+    {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
